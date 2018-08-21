@@ -1,0 +1,6 @@
+framework module XTThemeKit {
+  umbrella header "XTThemeKit.h"
+
+  export *
+  module * { export * }
+}

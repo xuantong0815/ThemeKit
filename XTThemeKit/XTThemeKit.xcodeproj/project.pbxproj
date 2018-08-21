@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E582F94C212AA26A00D5C3E7 /* XTThemeKitBuild */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E582F94D212AA26A00D5C3E7 /* Build configuration list for PBXAggregateTarget "XTThemeKitBuild" */;
+			buildPhases = (
+				E582F950212AA27400D5C3E7 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = XTThemeKitBuild;
+			productName = XTThemeKitBuild;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E582F8C8212A9B2700D5C3E7 /* XTThemeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8C6212A9B2700D5C3E7 /* XTThemeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8D2212A9B6A00D5C3E7 /* XTThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8D0212A9B6A00D5C3E7 /* XTThemeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8D3212A9B6A00D5C3E7 /* XTThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8D1212A9B6A00D5C3E7 /* XTThemeManager.m */; };
+		E582F8D6212A9B8E00D5C3E7 /* UIView+XTTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8D4212A9B8E00D5C3E7 /* UIView+XTTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8D7212A9B8E00D5C3E7 /* UIView+XTTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8D5212A9B8E00D5C3E7 /* UIView+XTTheme.m */; };
+		E582F8DE212A9D5100D5C3E7 /* XTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8DC212A9D5100D5C3E7 /* XTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8DF212A9D5100D5C3E7 /* XTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8DD212A9D5100D5C3E7 /* XTButton.m */; };
+		E582F8E2212A9D7B00D5C3E7 /* XTCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8E0212A9D7B00D5C3E7 /* XTCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8E3212A9D7B00D5C3E7 /* XTCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8E1212A9D7B00D5C3E7 /* XTCollectionReusableView.m */; };
+		E582F8E6212A9D9D00D5C3E7 /* XTCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8E4212A9D9D00D5C3E7 /* XTCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8E7212A9D9D00D5C3E7 /* XTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8E5212A9D9D00D5C3E7 /* XTCollectionView.m */; };
+		E582F8EA212A9DD700D5C3E7 /* XTCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8E8212A9DD700D5C3E7 /* XTCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8EB212A9DD700D5C3E7 /* XTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8E9212A9DD700D5C3E7 /* XTCollectionViewCell.m */; };
+		E582F8EE212A9DFE00D5C3E7 /* XTControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8EC212A9DFE00D5C3E7 /* XTControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8EF212A9DFE00D5C3E7 /* XTControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8ED212A9DFE00D5C3E7 /* XTControl.m */; };
+		E582F8F2212A9E1B00D5C3E7 /* XTDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8F0212A9E1B00D5C3E7 /* XTDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8F3212A9E1B00D5C3E7 /* XTDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8F1212A9E1B00D5C3E7 /* XTDatePicker.m */; };
+		E582F8F6212A9E7300D5C3E7 /* XTImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8F4212A9E7300D5C3E7 /* XTImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8F7212A9E7300D5C3E7 /* XTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8F5212A9E7300D5C3E7 /* XTImageView.m */; };
+		E582F8FA212A9E9E00D5C3E7 /* XTInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8F8212A9E9E00D5C3E7 /* XTInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8FB212A9E9E00D5C3E7 /* XTInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8F9212A9E9E00D5C3E7 /* XTInputView.m */; };
+		E582F8FE212A9EBA00D5C3E7 /* XTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F8FC212A9EBA00D5C3E7 /* XTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F8FF212A9EBA00D5C3E7 /* XTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F8FD212A9EBA00D5C3E7 /* XTLabel.m */; };
+		E582F902212A9F0400D5C3E7 /* XTNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F900212A9F0400D5C3E7 /* XTNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F903212A9F0400D5C3E7 /* XTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F901212A9F0400D5C3E7 /* XTNavigationBar.m */; };
+		E582F906212A9F2F00D5C3E7 /* XTPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F904212A9F2F00D5C3E7 /* XTPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F907212A9F2F00D5C3E7 /* XTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F905212A9F2F00D5C3E7 /* XTPageControl.m */; };
+		E582F90A212A9F5000D5C3E7 /* XTPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F908212A9F5000D5C3E7 /* XTPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F90B212A9F5000D5C3E7 /* XTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F909212A9F5000D5C3E7 /* XTPickerView.m */; };
+		E582F90E212A9F7800D5C3E7 /* XTPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F90C212A9F7800D5C3E7 /* XTPopoverBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F90F212A9F7800D5C3E7 /* XTPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F90D212A9F7800D5C3E7 /* XTPopoverBackgroundView.m */; };
+		E582F912212A9F9A00D5C3E7 /* XTProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F910212A9F9A00D5C3E7 /* XTProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F913212A9F9A00D5C3E7 /* XTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F911212A9F9A00D5C3E7 /* XTProgressView.m */; };
+		E582F916212A9FB800D5C3E7 /* XTRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F914212A9FB800D5C3E7 /* XTRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F917212A9FB800D5C3E7 /* XTRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F915212A9FB800D5C3E7 /* XTRefreshControl.m */; };
+		E582F91A212A9FD800D5C3E7 /* XTScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F918212A9FD800D5C3E7 /* XTScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F91B212A9FD800D5C3E7 /* XTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F919212A9FD800D5C3E7 /* XTScrollView.m */; };
+		E582F91E212A9FF900D5C3E7 /* XTSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F91C212A9FF900D5C3E7 /* XTSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F91F212A9FF900D5C3E7 /* XTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F91D212A9FF900D5C3E7 /* XTSearchBar.m */; };
+		E582F922212AA01400D5C3E7 /* XTSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F920212AA01400D5C3E7 /* XTSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F923212AA01400D5C3E7 /* XTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F921212AA01400D5C3E7 /* XTSegmentedControl.m */; };
+		E582F926212AA03000D5C3E7 /* XTSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F924212AA03000D5C3E7 /* XTSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F927212AA03000D5C3E7 /* XTSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F925212AA03000D5C3E7 /* XTSlider.m */; };
+		E582F92A212AA05000D5C3E7 /* XTSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F928212AA05000D5C3E7 /* XTSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F92B212AA05000D5C3E7 /* XTSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F929212AA05000D5C3E7 /* XTSwitch.m */; };
+		E582F92E212AA06D00D5C3E7 /* XTTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F92C212AA06D00D5C3E7 /* XTTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F92F212AA06D00D5C3E7 /* XTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F92D212AA06D00D5C3E7 /* XTTabBar.m */; };
+		E582F932212AA0AF00D5C3E7 /* XTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F930212AA0AF00D5C3E7 /* XTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F933212AA0AF00D5C3E7 /* XTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F931212AA0AF00D5C3E7 /* XTTableView.m */; };
+		E582F936212AA0CF00D5C3E7 /* XTTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F934212AA0CF00D5C3E7 /* XTTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F937212AA0CF00D5C3E7 /* XTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F935212AA0CF00D5C3E7 /* XTTableViewCell.m */; };
+		E582F93A212AA0FA00D5C3E7 /* XTTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F938212AA0FA00D5C3E7 /* XTTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F93B212AA0FA00D5C3E7 /* XTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F939212AA0FA00D5C3E7 /* XTTextField.m */; };
+		E582F93E212AA11A00D5C3E7 /* XTTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F93C212AA11A00D5C3E7 /* XTTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F93F212AA11A00D5C3E7 /* XTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F93D212AA11A00D5C3E7 /* XTTextView.m */; };
+		E582F942212AA16100D5C3E7 /* XTToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F940212AA16100D5C3E7 /* XTToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F943212AA16100D5C3E7 /* XTToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F941212AA16100D5C3E7 /* XTToolbar.m */; };
+		E582F946212AA18E00D5C3E7 /* XTView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F944212AA18E00D5C3E7 /* XTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F947212AA18E00D5C3E7 /* XTView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F945212AA18E00D5C3E7 /* XTView.m */; };
+		E582F94A212AA1AF00D5C3E7 /* XTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = E582F948212AA1AF00D5C3E7 /* XTWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E582F94B212AA1AF00D5C3E7 /* XTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E582F949212AA1AF00D5C3E7 /* XTWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E582F8C3212A9B2700D5C3E7 /* XTThemeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTThemeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E582F8C6212A9B2700D5C3E7 /* XTThemeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTThemeKit.h; sourceTree = "<group>"; };
+		E582F8C7212A9B2700D5C3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E582F8D0212A9B6A00D5C3E7 /* XTThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTThemeManager.h; sourceTree = "<group>"; };
+		E582F8D1212A9B6A00D5C3E7 /* XTThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTThemeManager.m; sourceTree = "<group>"; };
+		E582F8D4212A9B8E00D5C3E7 /* UIView+XTTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XTTheme.h"; sourceTree = "<group>"; };
+		E582F8D5212A9B8E00D5C3E7 /* UIView+XTTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XTTheme.m"; sourceTree = "<group>"; };
+		E582F8DC212A9D5100D5C3E7 /* XTButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTButton.h; sourceTree = "<group>"; };
+		E582F8DD212A9D5100D5C3E7 /* XTButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTButton.m; sourceTree = "<group>"; };
+		E582F8E0212A9D7B00D5C3E7 /* XTCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTCollectionReusableView.h; sourceTree = "<group>"; };
+		E582F8E1212A9D7B00D5C3E7 /* XTCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTCollectionReusableView.m; sourceTree = "<group>"; };
+		E582F8E4212A9D9D00D5C3E7 /* XTCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTCollectionView.h; sourceTree = "<group>"; };
+		E582F8E5212A9D9D00D5C3E7 /* XTCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTCollectionView.m; sourceTree = "<group>"; };
+		E582F8E8212A9DD700D5C3E7 /* XTCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTCollectionViewCell.h; sourceTree = "<group>"; };
+		E582F8E9212A9DD700D5C3E7 /* XTCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTCollectionViewCell.m; sourceTree = "<group>"; };
+		E582F8EC212A9DFE00D5C3E7 /* XTControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTControl.h; sourceTree = "<group>"; };
+		E582F8ED212A9DFE00D5C3E7 /* XTControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTControl.m; sourceTree = "<group>"; };
+		E582F8F0212A9E1B00D5C3E7 /* XTDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTDatePicker.h; sourceTree = "<group>"; };
+		E582F8F1212A9E1B00D5C3E7 /* XTDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTDatePicker.m; sourceTree = "<group>"; };
+		E582F8F4212A9E7300D5C3E7 /* XTImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTImageView.h; sourceTree = "<group>"; };
+		E582F8F5212A9E7300D5C3E7 /* XTImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTImageView.m; sourceTree = "<group>"; };
+		E582F8F8212A9E9E00D5C3E7 /* XTInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTInputView.h; sourceTree = "<group>"; };
+		E582F8F9212A9E9E00D5C3E7 /* XTInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTInputView.m; sourceTree = "<group>"; };
+		E582F8FC212A9EBA00D5C3E7 /* XTLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTLabel.h; sourceTree = "<group>"; };
+		E582F8FD212A9EBA00D5C3E7 /* XTLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTLabel.m; sourceTree = "<group>"; };
+		E582F900212A9F0400D5C3E7 /* XTNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTNavigationBar.h; sourceTree = "<group>"; };
+		E582F901212A9F0400D5C3E7 /* XTNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTNavigationBar.m; sourceTree = "<group>"; };
+		E582F904212A9F2F00D5C3E7 /* XTPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTPageControl.h; sourceTree = "<group>"; };
+		E582F905212A9F2F00D5C3E7 /* XTPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTPageControl.m; sourceTree = "<group>"; };
+		E582F908212A9F5000D5C3E7 /* XTPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTPickerView.h; sourceTree = "<group>"; };
+		E582F909212A9F5000D5C3E7 /* XTPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTPickerView.m; sourceTree = "<group>"; };
+		E582F90C212A9F7800D5C3E7 /* XTPopoverBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTPopoverBackgroundView.h; sourceTree = "<group>"; };
+		E582F90D212A9F7800D5C3E7 /* XTPopoverBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTPopoverBackgroundView.m; sourceTree = "<group>"; };
+		E582F910212A9F9A00D5C3E7 /* XTProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTProgressView.h; sourceTree = "<group>"; };
+		E582F911212A9F9A00D5C3E7 /* XTProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTProgressView.m; sourceTree = "<group>"; };
+		E582F914212A9FB800D5C3E7 /* XTRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTRefreshControl.h; sourceTree = "<group>"; };
+		E582F915212A9FB800D5C3E7 /* XTRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTRefreshControl.m; sourceTree = "<group>"; };
+		E582F918212A9FD800D5C3E7 /* XTScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTScrollView.h; sourceTree = "<group>"; };
+		E582F919212A9FD800D5C3E7 /* XTScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTScrollView.m; sourceTree = "<group>"; };
+		E582F91C212A9FF900D5C3E7 /* XTSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTSearchBar.h; sourceTree = "<group>"; };
+		E582F91D212A9FF900D5C3E7 /* XTSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTSearchBar.m; sourceTree = "<group>"; };
+		E582F920212AA01400D5C3E7 /* XTSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTSegmentedControl.h; sourceTree = "<group>"; };
+		E582F921212AA01400D5C3E7 /* XTSegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTSegmentedControl.m; sourceTree = "<group>"; };
+		E582F924212AA03000D5C3E7 /* XTSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTSlider.h; sourceTree = "<group>"; };
+		E582F925212AA03000D5C3E7 /* XTSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTSlider.m; sourceTree = "<group>"; };
+		E582F928212AA05000D5C3E7 /* XTSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTSwitch.h; sourceTree = "<group>"; };
+		E582F929212AA05000D5C3E7 /* XTSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTSwitch.m; sourceTree = "<group>"; };
+		E582F92C212AA06D00D5C3E7 /* XTTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTabBar.h; sourceTree = "<group>"; };
+		E582F92D212AA06D00D5C3E7 /* XTTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTabBar.m; sourceTree = "<group>"; };
+		E582F930212AA0AF00D5C3E7 /* XTTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTableView.h; sourceTree = "<group>"; };
+		E582F931212AA0AF00D5C3E7 /* XTTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTableView.m; sourceTree = "<group>"; };
+		E582F934212AA0CF00D5C3E7 /* XTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTableViewCell.h; sourceTree = "<group>"; };
+		E582F935212AA0CF00D5C3E7 /* XTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTableViewCell.m; sourceTree = "<group>"; };
+		E582F938212AA0FA00D5C3E7 /* XTTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTextField.h; sourceTree = "<group>"; };
+		E582F939212AA0FA00D5C3E7 /* XTTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTextField.m; sourceTree = "<group>"; };
+		E582F93C212AA11A00D5C3E7 /* XTTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTextView.h; sourceTree = "<group>"; };
+		E582F93D212AA11A00D5C3E7 /* XTTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTextView.m; sourceTree = "<group>"; };
+		E582F940212AA16100D5C3E7 /* XTToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTToolbar.h; sourceTree = "<group>"; };
+		E582F941212AA16100D5C3E7 /* XTToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTToolbar.m; sourceTree = "<group>"; };
+		E582F944212AA18E00D5C3E7 /* XTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTView.h; sourceTree = "<group>"; };
+		E582F945212AA18E00D5C3E7 /* XTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTView.m; sourceTree = "<group>"; };
+		E582F948212AA1AF00D5C3E7 /* XTWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTWebView.h; sourceTree = "<group>"; };
+		E582F949212AA1AF00D5C3E7 /* XTWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E582F8BF212A9B2600D5C3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E582F8B9212A9B2600D5C3E7 = {
+			isa = PBXGroup;
+			children = (
+				E582F8C5212A9B2700D5C3E7 /* XTThemeKit */,
+				E582F8C4212A9B2700D5C3E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E582F8C4212A9B2700D5C3E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E582F8C3212A9B2700D5C3E7 /* XTThemeKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E582F8C5212A9B2700D5C3E7 /* XTThemeKit */ = {
+			isa = PBXGroup;
+			children = (
+				E582F8C6212A9B2700D5C3E7 /* XTThemeKit.h */,
+				E582F8CE212A9B2E00D5C3E7 /* Classes */,
+				E582F8CF212A9B4A00D5C3E7 /* Manager */,
+				E582F8C7212A9B2700D5C3E7 /* Info.plist */,
+			);
+			path = XTThemeKit;
+			sourceTree = "<group>";
+		};
+		E582F8CE212A9B2E00D5C3E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E582F8DC212A9D5100D5C3E7 /* XTButton.h */,
+				E582F8DD212A9D5100D5C3E7 /* XTButton.m */,
+				E582F8E0212A9D7B00D5C3E7 /* XTCollectionReusableView.h */,
+				E582F8E1212A9D7B00D5C3E7 /* XTCollectionReusableView.m */,
+				E582F8E4212A9D9D00D5C3E7 /* XTCollectionView.h */,
+				E582F8E5212A9D9D00D5C3E7 /* XTCollectionView.m */,
+				E582F8E8212A9DD700D5C3E7 /* XTCollectionViewCell.h */,
+				E582F8E9212A9DD700D5C3E7 /* XTCollectionViewCell.m */,
+				E582F8EC212A9DFE00D5C3E7 /* XTControl.h */,
+				E582F8ED212A9DFE00D5C3E7 /* XTControl.m */,
+				E582F8F0212A9E1B00D5C3E7 /* XTDatePicker.h */,
+				E582F8F1212A9E1B00D5C3E7 /* XTDatePicker.m */,
+				E582F8F4212A9E7300D5C3E7 /* XTImageView.h */,
+				E582F8F5212A9E7300D5C3E7 /* XTImageView.m */,
+				E582F8F8212A9E9E00D5C3E7 /* XTInputView.h */,
+				E582F8F9212A9E9E00D5C3E7 /* XTInputView.m */,
+				E582F8FC212A9EBA00D5C3E7 /* XTLabel.h */,
+				E582F8FD212A9EBA00D5C3E7 /* XTLabel.m */,
+				E582F900212A9F0400D5C3E7 /* XTNavigationBar.h */,
+				E582F901212A9F0400D5C3E7 /* XTNavigationBar.m */,
+				E582F904212A9F2F00D5C3E7 /* XTPageControl.h */,
+				E582F905212A9F2F00D5C3E7 /* XTPageControl.m */,
+				E582F908212A9F5000D5C3E7 /* XTPickerView.h */,
+				E582F909212A9F5000D5C3E7 /* XTPickerView.m */,
+				E582F90C212A9F7800D5C3E7 /* XTPopoverBackgroundView.h */,
+				E582F90D212A9F7800D5C3E7 /* XTPopoverBackgroundView.m */,
+				E582F910212A9F9A00D5C3E7 /* XTProgressView.h */,
+				E582F911212A9F9A00D5C3E7 /* XTProgressView.m */,
+				E582F914212A9FB800D5C3E7 /* XTRefreshControl.h */,
+				E582F915212A9FB800D5C3E7 /* XTRefreshControl.m */,
+				E582F918212A9FD800D5C3E7 /* XTScrollView.h */,
+				E582F919212A9FD800D5C3E7 /* XTScrollView.m */,
+				E582F91C212A9FF900D5C3E7 /* XTSearchBar.h */,
+				E582F91D212A9FF900D5C3E7 /* XTSearchBar.m */,
+				E582F920212AA01400D5C3E7 /* XTSegmentedControl.h */,
+				E582F921212AA01400D5C3E7 /* XTSegmentedControl.m */,
+				E582F924212AA03000D5C3E7 /* XTSlider.h */,
+				E582F925212AA03000D5C3E7 /* XTSlider.m */,
+				E582F928212AA05000D5C3E7 /* XTSwitch.h */,
+				E582F929212AA05000D5C3E7 /* XTSwitch.m */,
+				E582F92C212AA06D00D5C3E7 /* XTTabBar.h */,
+				E582F92D212AA06D00D5C3E7 /* XTTabBar.m */,
+				E582F930212AA0AF00D5C3E7 /* XTTableView.h */,
+				E582F931212AA0AF00D5C3E7 /* XTTableView.m */,
+				E582F934212AA0CF00D5C3E7 /* XTTableViewCell.h */,
+				E582F935212AA0CF00D5C3E7 /* XTTableViewCell.m */,
+				E582F938212AA0FA00D5C3E7 /* XTTextField.h */,
+				E582F939212AA0FA00D5C3E7 /* XTTextField.m */,
+				E582F93C212AA11A00D5C3E7 /* XTTextView.h */,
+				E582F93D212AA11A00D5C3E7 /* XTTextView.m */,
+				E582F940212AA16100D5C3E7 /* XTToolbar.h */,
+				E582F941212AA16100D5C3E7 /* XTToolbar.m */,
+				E582F944212AA18E00D5C3E7 /* XTView.h */,
+				E582F945212AA18E00D5C3E7 /* XTView.m */,
+				E582F948212AA1AF00D5C3E7 /* XTWebView.h */,
+				E582F949212AA1AF00D5C3E7 /* XTWebView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E582F8CF212A9B4A00D5C3E7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E582F8D0212A9B6A00D5C3E7 /* XTThemeManager.h */,
+				E582F8D1212A9B6A00D5C3E7 /* XTThemeManager.m */,
+				E582F8D4212A9B8E00D5C3E7 /* UIView+XTTheme.h */,
+				E582F8D5212A9B8E00D5C3E7 /* UIView+XTTheme.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E582F8C0212A9B2700D5C3E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E582F8D2212A9B6A00D5C3E7 /* XTThemeManager.h in Headers */,
+				E582F902212A9F0400D5C3E7 /* XTNavigationBar.h in Headers */,
+				E582F8FE212A9EBA00D5C3E7 /* XTLabel.h in Headers */,
+				E582F93A212AA0FA00D5C3E7 /* XTTextField.h in Headers */,
+				E582F90E212A9F7800D5C3E7 /* XTPopoverBackgroundView.h in Headers */,
+				E582F94A212AA1AF00D5C3E7 /* XTWebView.h in Headers */,
+				E582F946212AA18E00D5C3E7 /* XTView.h in Headers */,
+				E582F8DE212A9D5100D5C3E7 /* XTButton.h in Headers */,
+				E582F932212AA0AF00D5C3E7 /* XTTableView.h in Headers */,
+				E582F942212AA16100D5C3E7 /* XTToolbar.h in Headers */,
+				E582F91A212A9FD800D5C3E7 /* XTScrollView.h in Headers */,
+				E582F922212AA01400D5C3E7 /* XTSegmentedControl.h in Headers */,
+				E582F8C8212A9B2700D5C3E7 /* XTThemeKit.h in Headers */,
+				E582F8E2212A9D7B00D5C3E7 /* XTCollectionReusableView.h in Headers */,
+				E582F8F6212A9E7300D5C3E7 /* XTImageView.h in Headers */,
+				E582F91E212A9FF900D5C3E7 /* XTSearchBar.h in Headers */,
+				E582F906212A9F2F00D5C3E7 /* XTPageControl.h in Headers */,
+				E582F90A212A9F5000D5C3E7 /* XTPickerView.h in Headers */,
+				E582F8FA212A9E9E00D5C3E7 /* XTInputView.h in Headers */,
+				E582F916212A9FB800D5C3E7 /* XTRefreshControl.h in Headers */,
+				E582F92E212AA06D00D5C3E7 /* XTTabBar.h in Headers */,
+				E582F93E212AA11A00D5C3E7 /* XTTextView.h in Headers */,
+				E582F926212AA03000D5C3E7 /* XTSlider.h in Headers */,
+				E582F8E6212A9D9D00D5C3E7 /* XTCollectionView.h in Headers */,
+				E582F8EE212A9DFE00D5C3E7 /* XTControl.h in Headers */,
+				E582F912212A9F9A00D5C3E7 /* XTProgressView.h in Headers */,
+				E582F8D6212A9B8E00D5C3E7 /* UIView+XTTheme.h in Headers */,
+				E582F936212AA0CF00D5C3E7 /* XTTableViewCell.h in Headers */,
+				E582F8F2212A9E1B00D5C3E7 /* XTDatePicker.h in Headers */,
+				E582F92A212AA05000D5C3E7 /* XTSwitch.h in Headers */,
+				E582F8EA212A9DD700D5C3E7 /* XTCollectionViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E582F8C2212A9B2700D5C3E7 /* XTThemeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E582F8CB212A9B2700D5C3E7 /* Build configuration list for PBXNativeTarget "XTThemeKit" */;
+			buildPhases = (
+				E582F8BE212A9B2600D5C3E7 /* Sources */,
+				E582F8BF212A9B2600D5C3E7 /* Frameworks */,
+				E582F8C0212A9B2700D5C3E7 /* Headers */,
+				E582F8C1212A9B2700D5C3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTThemeKit;
+			productName = XTThemeKit;
+			productReference = E582F8C3212A9B2700D5C3E7 /* XTThemeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E582F8BA212A9B2600D5C3E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XT;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Tong;
+				TargetAttributes = {
+					E582F8C2212A9B2700D5C3E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E582F94C212AA26A00D5C3E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E582F8BD212A9B2600D5C3E7 /* Build configuration list for PBXProject "XTThemeKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E582F8B9212A9B2600D5C3E7;
+			productRefGroup = E582F8C4212A9B2700D5C3E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E582F8C2212A9B2700D5C3E7 /* XTThemeKit */,
+				E582F94C212AA26A00D5C3E7 /* XTThemeKitBuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E582F8C1212A9B2700D5C3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E582F950212AA27400D5C3E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E582F8BE212A9B2600D5C3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E582F907212A9F2F00D5C3E7 /* XTPageControl.m in Sources */,
+				E582F8D7212A9B8E00D5C3E7 /* UIView+XTTheme.m in Sources */,
+				E582F8E3212A9D7B00D5C3E7 /* XTCollectionReusableView.m in Sources */,
+				E582F93F212AA11A00D5C3E7 /* XTTextView.m in Sources */,
+				E582F8F3212A9E1B00D5C3E7 /* XTDatePicker.m in Sources */,
+				E582F903212A9F0400D5C3E7 /* XTNavigationBar.m in Sources */,
+				E582F8DF212A9D5100D5C3E7 /* XTButton.m in Sources */,
+				E582F90F212A9F7800D5C3E7 /* XTPopoverBackgroundView.m in Sources */,
+				E582F8FF212A9EBA00D5C3E7 /* XTLabel.m in Sources */,
+				E582F8EF212A9DFE00D5C3E7 /* XTControl.m in Sources */,
+				E582F943212AA16100D5C3E7 /* XTToolbar.m in Sources */,
+				E582F937212AA0CF00D5C3E7 /* XTTableViewCell.m in Sources */,
+				E582F917212A9FB800D5C3E7 /* XTRefreshControl.m in Sources */,
+				E582F913212A9F9A00D5C3E7 /* XTProgressView.m in Sources */,
+				E582F947212AA18E00D5C3E7 /* XTView.m in Sources */,
+				E582F91F212A9FF900D5C3E7 /* XTSearchBar.m in Sources */,
+				E582F8EB212A9DD700D5C3E7 /* XTCollectionViewCell.m in Sources */,
+				E582F92B212AA05000D5C3E7 /* XTSwitch.m in Sources */,
+				E582F91B212A9FD800D5C3E7 /* XTScrollView.m in Sources */,
+				E582F933212AA0AF00D5C3E7 /* XTTableView.m in Sources */,
+				E582F927212AA03000D5C3E7 /* XTSlider.m in Sources */,
+				E582F8D3212A9B6A00D5C3E7 /* XTThemeManager.m in Sources */,
+				E582F93B212AA0FA00D5C3E7 /* XTTextField.m in Sources */,
+				E582F8E7212A9D9D00D5C3E7 /* XTCollectionView.m in Sources */,
+				E582F94B212AA1AF00D5C3E7 /* XTWebView.m in Sources */,
+				E582F90B212A9F5000D5C3E7 /* XTPickerView.m in Sources */,
+				E582F8FB212A9E9E00D5C3E7 /* XTInputView.m in Sources */,
+				E582F8F7212A9E7300D5C3E7 /* XTImageView.m in Sources */,
+				E582F92F212AA06D00D5C3E7 /* XTTabBar.m in Sources */,
+				E582F923212AA01400D5C3E7 /* XTSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E582F8C9212A9B2700D5C3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E582F8CA212A9B2700D5C3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E582F8CC212A9B2700D5C3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XTThemeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tong.XTThemeKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E582F8CD212A9B2700D5C3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XTThemeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tong.XTThemeKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E582F94E212AA26A00D5C3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E582F94F212AA26A00D5C3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E582F8BD212A9B2600D5C3E7 /* Build configuration list for PBXProject "XTThemeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E582F8C9212A9B2700D5C3E7 /* Debug */,
+				E582F8CA212A9B2700D5C3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E582F8CB212A9B2700D5C3E7 /* Build configuration list for PBXNativeTarget "XTThemeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E582F8CC212A9B2700D5C3E7 /* Debug */,
+				E582F8CD212A9B2700D5C3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E582F94D212AA26A00D5C3E7 /* Build configuration list for PBXAggregateTarget "XTThemeKitBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E582F94E212AA26A00D5C3E7 /* Debug */,
+				E582F94F212AA26A00D5C3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E582F8BA212A9B2600D5C3E7 /* Project object */;
+}

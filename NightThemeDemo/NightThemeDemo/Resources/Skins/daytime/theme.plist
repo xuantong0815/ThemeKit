@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>白天主题</string>
+	<key>description</key>
+	<string>不要存在多个key包含重复值，可选值－透明度（,alphaValue）</string>
+	<key>colors</key>
+	<dict>
+		<key>82_180_255</key>
+		<string>82_180_255</string>
+		<key>255_255_255</key>
+		<string>255_255_255</string>
+		<key>255_255_255_0.5</key>
+		<string>255_255_255_0.5</string>
+	</dict>
+	<key>asserts</key>
+	<dict>
+		<key>test_assert_image</key>
+		<string>test_assert_image</string>
+	</dict>
+	<key>images</key>
+	<dict>
+		<key>test_noFolder_image</key>
+		<dict>
+			<key>folderName</key>
+			<string></string>
+			<key>imageName</key>
+			<string>test_noFolder_image</string>
+		</dict>
+		<key>test_folder_image</key>
+		<dict>
+			<key>folderName</key>
+			<string>Images</string>
+			<key>imageName</key>
+			<string>test_folder_image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
