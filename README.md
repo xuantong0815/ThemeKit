@@ -1,5 +1,7 @@
 # ThemeKit
-夜间模式（主题切换）
+
+夜间模式（主题切换）。使用`Block`和通知作为实现方式。具体请看[详细说明](https://blog.csdn.net/XuanTong520/article/details/81903103)。
+
 ### 使用详解
 
 `XTThemeManager`：主题管理类。也是整个主题切换的工具类。主要是配置主题信息，获取对应模式下的图片和颜色。
@@ -76,7 +78,17 @@
 
 具体的调用方法这里也就不多说了。这三种情况`plist`文件的配置都在Demo中。看Demo就知道了。
 
-[详细说明](https://blog.csdn.net/XuanTong520/article/details/81903103)
+### 如何安装
+
+这个框架目前不支持`cocoapods`和`carthage`。只能手动添加。手动添加有两种方法
+
+#### 自己打包
+
+您可以下载`XTThemeKit`文件，下载完成后，自己打包生成`Framework`。您可以修改库的类型。默认是动态库。
+
+#### 直接拖动
+
+如果您不想那么麻烦，就直接把`XTThemeKit`文件中的`XTThemeKit`文件拖到您的项目中。
 
 **如果您在使用过程中遇到什么问题，可以随时提Issue**
 
